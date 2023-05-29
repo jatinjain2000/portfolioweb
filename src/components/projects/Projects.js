@@ -15,7 +15,7 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO"
+          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           des="My Projects"
         />
       </div>
@@ -27,6 +27,7 @@ const Projects = () => {
           utmost precision of their implementation .
           "
           src={toconvert}
+          link={"https://github.com/jatinjain2000/ForexTrading"}
           
         />
         <ProjectsCard
@@ -34,7 +35,8 @@ const Projects = () => {
           des="NewsMonkey is a cutting-edge web application developed using the power of React and the NewsAPI, designed to deliver the latest and most relevant news directly to your fingertips. With NewsMonkey, you can stay informed and up-to-date with current events from around the world in a user-friendly and efficient manner.
           "
           src={newsmokey}
-          
+          link={"https://github.com/jatinjain2000/NewsMonkey"}
+          link2={"https://news-monkey-ashy.vercel.app/"}
           
         />
         <ProjectsCard
