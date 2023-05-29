@@ -5,6 +5,7 @@ import {
   FaReact,
   FaFacebook,
   FaInstagram,
+  FaGithub,
 } from 'react-icons/fa';
 import { SiTailwindcss, SiFigma, SiReact, SiCplusplus } from 'react-icons/si';
 
@@ -38,7 +39,7 @@ const Banner = () => {
         <div className="flex flex-col lgl:flex-row justify-between">
           <div>
             <h2 className="text-base font-bold uppercase font-titleFont mb-4 my-8">
-              Find Me In
+              Find Me On
             </h2>
             <div className="flex gap-4">
               <a
@@ -56,6 +57,14 @@ const Banner = () => {
                 className="bannerIcon"
               >
                 <FaInstagram />
+              </a>
+              <a
+                href="https://github.com/jatinjain2000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bannerIcon"
+              >
+                <FaGithub />
               </a>
             </div>
           </div>
