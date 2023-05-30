@@ -1,6 +1,6 @@
 import { PaperClipIcon } from '@heroicons/react/20/solid';
 import Title from '../layouts/Title';
-import { cv_new } from "../../assets/index";
+import { RESUMENEW } from "../../assets/index";
 
 export default function Example() {
   return (
@@ -22,7 +22,7 @@ export default function Example() {
                   </div>
                 </div>
                 <div className="ml-4 flex-shrink-0">
-                  <a href={cv_new} download className="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
+                  <a href={RESUMENEW} download className="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
                 </div>
               </li>
               <li className="flex flex-col sm:flex-row items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
@@ -34,7 +34,7 @@ export default function Example() {
                   </div>
                 </div>
                 <div className="ml-4 flex-shrink-0">
-                  <a href={cv_new} target="_blank" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href={RESUMENEW} target="_blank" className="font-medium text-indigo-600 hover:text-indigo-500">
                     View
                   </a>
                 </div>
