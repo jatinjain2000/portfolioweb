@@ -2,6 +2,7 @@ import { PaperClipIcon } from '@heroicons/react/20/solid';
 import Title from '../layouts/Title';
 import { RESUMENEW } from "../../assets/index";
 
+
 export default function Example() {
   return (
     <section id="resume">
